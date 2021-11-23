@@ -1201,7 +1201,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
 .iplt           0x0000000008001060        0x0
  .iplt          0x0000000008001060        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.rodata         0x0000000008001060      0x26c
+.rodata         0x0000000008001060      0x268
                 0x0000000008001060                . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x0000000008001060        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
@@ -1211,60 +1211,59 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
                 0x0000000008001064       0x4c CMakeFiles/USART3.elf.dir/Src/main.c.obj
                                          0x50 (size before relaxing)
  .rodata.printMenu.str1.4
-                0x00000000080010b0      0x14d CMakeFiles/USART3.elf.dir/Src/main.c.obj
- *fill*         0x00000000080011fd        0x3 
+                0x00000000080010b0      0x14c CMakeFiles/USART3.elf.dir/Src/main.c.obj
  .rodata.str1.4
-                0x0000000008001200       0xc6 CMakeFiles/USART3.elf.dir/Src/main.c.obj
- *fill*         0x00000000080012c6        0x2 
+                0x00000000080011fc       0xc6 CMakeFiles/USART3.elf.dir/Src/main.c.obj
+ *fill*         0x00000000080012c2        0x2 
  .rodata.str1.4
-                0x00000000080012c8        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
+                0x00000000080012c4        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
                                           0x2 (size before relaxing)
-                0x00000000080012cc                . = ALIGN (0x4)
+                0x00000000080012c8                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000080012cc        0x0
- .rel.iplt      0x00000000080012cc        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.rel.dyn        0x00000000080012c8        0x0
+ .rel.iplt      0x00000000080012c8        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.ARM.extab      0x00000000080012cc        0x0
-                0x00000000080012cc                . = ALIGN (0x4)
+.ARM.extab      0x00000000080012c8        0x0
+                0x00000000080012c8                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080012cc                . = ALIGN (0x4)
+                0x00000000080012c8                . = ALIGN (0x4)
 
-.ARM            0x00000000080012cc        0x0
-                0x00000000080012cc                . = ALIGN (0x4)
-                0x00000000080012cc                __exidx_start = .
+.ARM            0x00000000080012c8        0x0
+                0x00000000080012c8                . = ALIGN (0x4)
+                0x00000000080012c8                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080012cc                __exidx_end = .
-                0x00000000080012cc                . = ALIGN (0x4)
+                0x00000000080012c8                __exidx_end = .
+                0x00000000080012c8                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080012cc        0x0
-                0x00000000080012cc                . = ALIGN (0x4)
-                0x00000000080012cc                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x00000000080012c8        0x0
+                0x00000000080012c8                . = ALIGN (0x4)
+                0x00000000080012c8                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000000080012cc                PROVIDE (__preinit_array_end, .)
-                0x00000000080012cc                . = ALIGN (0x4)
+                0x00000000080012c8                PROVIDE (__preinit_array_end, .)
+                0x00000000080012c8                . = ALIGN (0x4)
 
-.init_array     0x00000000080012cc        0x8
-                0x00000000080012cc                . = ALIGN (0x4)
-                0x00000000080012cc                PROVIDE (__init_array_start, .)
+.init_array     0x00000000080012c8        0x8
+                0x00000000080012c8                . = ALIGN (0x4)
+                0x00000000080012c8                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x00000000080012cc        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+                0x00000000080012c8        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x00000000080012d0        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00000000080012d4                PROVIDE (__init_array_end, .)
-                0x00000000080012d4                . = ALIGN (0x4)
+ .init_array    0x00000000080012cc        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x00000000080012d0                PROVIDE (__init_array_end, .)
+                0x00000000080012d0                . = ALIGN (0x4)
 
-.fini_array     0x00000000080012d4        0x4
-                0x00000000080012d4                . = ALIGN (0x4)
-                0x00000000080012d4                PROVIDE (__fini_array_start, .)
+.fini_array     0x00000000080012d0        0x4
+                0x00000000080012d0                . = ALIGN (0x4)
+                0x00000000080012d0                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080012d4        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00000000080012d8                PROVIDE (__fini_array_end, .)
-                0x00000000080012d8                . = ALIGN (0x4)
-                0x00000000080012d8                _sidata = LOADADDR (.data)
+ .fini_array    0x00000000080012d0        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x00000000080012d4                PROVIDE (__fini_array_end, .)
+                0x00000000080012d4                . = ALIGN (0x4)
+                0x00000000080012d4                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x84c load address 0x00000000080012d8
+.data           0x0000000020000000      0x84c load address 0x00000000080012d4
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1289,21 +1288,21 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
                 0x000000002000084c                . = ALIGN (0x4)
                 0x000000002000084c                _edata = .
 
-.jcr            0x000000002000084c        0x0 load address 0x0000000008001b24
+.jcr            0x000000002000084c        0x0 load address 0x0000000008001b20
  .jcr           0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
 .tm_clone_table
-                0x000000002000084c        0x0 load address 0x0000000008001b24
+                0x000000002000084c        0x0 load address 0x0000000008001b20
  .tm_clone_table
                 0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
  .tm_clone_table
                 0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
 
-.igot.plt       0x000000002000084c        0x0 load address 0x0000000008001b24
+.igot.plt       0x000000002000084c        0x0 load address 0x0000000008001b20
  .igot.plt      0x000000002000084c        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
                 0x000000002000084c                . = ALIGN (0x4)
 
-.bss            0x000000002000084c       0x74 load address 0x0000000008001b24
+.bss            0x000000002000084c       0x74 load address 0x0000000008001b20
                 0x000000002000084c                _sbss = .
                 0x000000002000084c                __bss_start__ = _sbss
  *(.bss)
@@ -1332,7 +1331,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
                 0x00000000200008c0                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200008c0      0x600 load address 0x0000000008001b24
+                0x00000000200008c0      0x600 load address 0x0000000008001b20
                 0x00000000200008c0                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end, .)
                 0x00000000200008c0                PROVIDE (_end, .)
@@ -1535,27 +1534,27 @@ OUTPUT(USART3.elf elf32-littlearm)
  .debug_ranges  0x00000000000001c8       0x40 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
  .debug_ranges  0x0000000000000208       0x38 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
 
-.debug_line     0x0000000000000000     0x1fc7
+.debug_line     0x0000000000000000     0x1ff5
  .debug_line    0x0000000000000000      0x414 CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x0000000000000414      0x37d CMakeFiles/USART3.elf.dir/Src/main.c.obj
- .debug_line    0x0000000000000791       0xe8 CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000000879      0x121 CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj
- .debug_line    0x000000000000099a      0x1fa CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_line    0x0000000000000b94       0xa3 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
- .debug_line    0x0000000000000c37      0x151 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
- .debug_line    0x0000000000000d88      0x104 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
- .debug_line    0x0000000000000e8c       0x9f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
- .debug_line    0x0000000000000f2b       0xe9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
- .debug_line    0x0000000000001014       0xb8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
- .debug_line    0x00000000000010cc      0x154 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
- .debug_line    0x0000000000001220      0x391 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
- .debug_line    0x00000000000015b1       0xf8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
- .debug_line    0x00000000000016a9      0x15a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
- .debug_line    0x0000000000001803       0xac /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strlen.o)
- .debug_line    0x00000000000018af      0x184 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
- .debug_line    0x0000000000001a33      0x1b2 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
- .debug_line    0x0000000000001be5      0x269 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
- .debug_line    0x0000000000001e4e      0x179 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
+ .debug_line    0x0000000000000414      0x3ab CMakeFiles/USART3.elf.dir/Src/main.c.obj
+ .debug_line    0x00000000000007bf       0xe8 CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00000000000008a7      0x121 CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj
+ .debug_line    0x00000000000009c8      0x1fa CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x0000000000000bc2       0xa3 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
+ .debug_line    0x0000000000000c65      0x151 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000db6      0x104 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
+ .debug_line    0x0000000000000eba       0x9f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
+ .debug_line    0x0000000000000f59       0xe9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
+ .debug_line    0x0000000000001042       0xb8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
+ .debug_line    0x00000000000010fa      0x154 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
+ .debug_line    0x000000000000124e      0x391 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
+ .debug_line    0x00000000000015df       0xf8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
+ .debug_line    0x00000000000016d7      0x15a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000001831       0xac /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strlen.o)
+ .debug_line    0x00000000000018dd      0x184 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000001a61      0x1b2 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000001c13      0x269 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
+ .debug_line    0x0000000000001e7c      0x179 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
 
 .debug_str      0x0000000000000000     0x1a80
  .debug_str     0x0000000000000000      0xb6b CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj

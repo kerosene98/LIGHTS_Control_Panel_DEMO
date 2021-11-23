@@ -8,45 +8,11 @@
 #include "string.h"
 #include "stdlib.h"
 
-typedef struct LEDlamp;
-void RCC_init(void);
-void USART_init(void);
-void statusLED(int onoff);
-void GPIO_init(void);
-void USART_write(int ch);
-char USART_read(void);
-char* printMenu(void);
-void USART_write_string(char* charString);
-
-typedef enum {
-    LEDOnFULL,
-    LEDOFFFULL,
-    NoOfIlluminationStates
-}illuminationState;
-
-typedef enum {
-    emptyLED,
-    LD1,
-    noOfLED
-} ledID;
-
-typedef struct{
-    char *location;
-    ledID GPIO;
-    illuminationState ledstate;
-} LEDlamp;
-
-
-#define ON  1
-#define OFF 0
-
 // Global
 LEDlamp led1;
 LEDlamp led2;
 LEDlamp led3;
 
-char* LEDONSTRING  = "LED 'should' be ON.\r\n";
-char* LEDOFFSTRING = "LED 'should' be OFF.\r\n";
 char* CLEARDISPLAY = "\n\n\n\n\n\n\n\n\n\n";
 char* APPHELP = "\n -APP HELP- \r\nThis is a demo app using USART to illuminate an LED.\r\n"
                 "The LED can also be toggled by pressing the onboard default Button.\r\n";
@@ -70,14 +36,17 @@ void GPIO_init(void){
 
     GPIOA->MODER &= ~0x0CF0;     // clear
     GPIOA->MODER |= 0x04A0;      // set to AF mode 10b PA2(Tx) PA3(Rx) & PA5(LED) as output 01b
+}
 
+int setBaud(int baud){
+    float baudResult = 16000000/16*baud;
 }
 
 /*
  * Initialise the USART
  */
 void USART_init(void){
-    // Configure USART2
+    // Configure USART Baud
     USART2->BRR = 0x0683;        // set baud 9600
     USART2->CR1 = TE | RE;       // set TE & RE
     USART2->CR2 = 0x0000;
@@ -186,13 +155,11 @@ int main(void){
         // turn LED ON
         if(c == '1') {
             statusLED(ON);
-            //USART_write_string(LEDONSTRING); // Debug
         }
 
         // 0 turn LED OFF
         if(c =='0') {
             statusLED(OFF);
-            //USART_write_string(LEDOFFSTRING); // Debug
         }
 
         // Spacebar, q or h displays the menu!
