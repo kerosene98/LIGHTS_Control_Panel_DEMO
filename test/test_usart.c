@@ -12,9 +12,9 @@ void tearDown(void)
 {
 }
 
-void test_usart_NeedToImplement(void)
+void test_usart_read(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement usart");
+    TEST_ASSERT_EQUAL('A', 1);
 }
 
 #endif // TEST

@@ -599,8 +599,7 @@ CMakeFiles/USART3.elf.dir/src/main.c.obj: \
  ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../src/init.h \
- ../src/main.c \
- ../src/usart.h
+ ../src/main.c
 CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj: \
  ../src/stm32f4xx_hal_msp.c
 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj: \

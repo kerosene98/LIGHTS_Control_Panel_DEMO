@@ -11,3 +11,5 @@ src/main.c:
 - TEST
 build/test/mocks/mock_init.c:
 - TEST
+src/usart.c:
+- TEST

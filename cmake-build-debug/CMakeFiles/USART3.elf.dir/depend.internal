@@ -600,7 +600,6 @@ CMakeFiles/USART3.elf.dir/src/main.c.obj
  ../Inc/stm32f4xx_hal_conf.h
  /home/labtest/CLionProjects/USART3/src/init.h
  /home/labtest/CLionProjects/USART3/src/main.c
- /home/labtest/CLionProjects/USART3/src/usart.h
 CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj
  /home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c
 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj

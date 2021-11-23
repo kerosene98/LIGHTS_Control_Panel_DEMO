@@ -321,10 +321,4 @@ stdlib.h
 /home/labtest/CLionProjects/USART3/src/stdlib.h
 init.h
 /home/labtest/CLionProjects/USART3/src/init.h
-usart.h
-/home/labtest/CLionProjects/USART3/src/usart.h
-
-/home/labtest/CLionProjects/USART3/src/usart.h
-stm32f4xx_hal.h
-/home/labtest/CLionProjects/USART3/src/stm32f4xx_hal.h
 

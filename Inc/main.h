@@ -42,6 +42,10 @@ typedef struct LEDlamp LEDlamp;
 void statusLED(int onoff);
 char* printMenu(void);
 
+void USART_write_string(char* charString);
+char USART_read(void);
+void USART_write(int ch);
+
 typedef enum {
     LEDOnFULL,
     LEDOFFFULL,
