@@ -276,28 +276,31 @@
 		<Unit filename="/home/labtest/CLionProjects/USART3/STM32F446RETX_FLASH.ld">
 			<Option target="USART3.elf"/>
 		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/main.c">
-			<Option target="USART3.elf"/>
-		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/main.h">
-			<Option target="USART3.elf"/>
-		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/stm32f4xx_hal_msp.c">
-			<Option target="USART3.elf"/>
-		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/stm32f4xx_it.c">
-			<Option target="USART3.elf"/>
-		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/syscalls.c">
-			<Option target="USART3.elf"/>
-		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/sysmem.c">
-			<Option target="USART3.elf"/>
-		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/Src/system_stm32f4xx.c">
-			<Option target="USART3.elf"/>
-		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/Startup/startup_stm32f446retx.s">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/init.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/init.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/main.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/stm32f4xx_it.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/syscalls.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/sysmem.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/system_stm32f4xx.c">
 			<Option target="USART3.elf"/>
 		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/CMakeLists.txt">

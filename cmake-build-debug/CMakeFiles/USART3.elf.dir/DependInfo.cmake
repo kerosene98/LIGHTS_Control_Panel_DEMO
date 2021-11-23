@@ -45,12 +45,13 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/labtest/CLionProjects/USART3/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "/home/labtest/CLionProjects/USART3/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "/home/labtest/CLionProjects/USART3/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-  "/home/labtest/CLionProjects/USART3/Src/main.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Src/main.c.obj"
-  "/home/labtest/CLionProjects/USART3/Src/stm32f4xx_hal_msp.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
-  "/home/labtest/CLionProjects/USART3/Src/stm32f4xx_it.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj"
-  "/home/labtest/CLionProjects/USART3/Src/syscalls.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj"
-  "/home/labtest/CLionProjects/USART3/Src/sysmem.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj"
-  "/home/labtest/CLionProjects/USART3/Src/system_stm32f4xx.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/init.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/init.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/main.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/main.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/stm32f4xx_it.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/syscalls.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/syscalls.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/sysmem.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/sysmem.c.obj"
+  "/home/labtest/CLionProjects/USART3/src/system_stm32f4xx.c" "/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

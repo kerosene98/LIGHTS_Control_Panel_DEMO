@@ -7,6 +7,8 @@
 #include "main.h"
 #include "string.h"
 #include "stdlib.h"
+#include "init.h"
+#include "usart.h"
 
 // Global
 LEDlamp led1;
@@ -16,43 +18,6 @@ LEDlamp led3;
 char* CLEARDISPLAY = "\n\n\n\n\n\n\n\n\n\n";
 char* APPHELP = "\n -APP HELP- \r\nThis is a demo app using USART to illuminate an LED.\r\n"
                 "The LED can also be toggled by pressing the onboard default Button.\r\n";
-
-/*
- * Initialise the RCC clocks
- */
-void RCC_init(void){
-    // clocks
-    RCC->AHB1ENR |= GPIOAEN;     // GPIOA clock enable PA2 = Tx
-    RCC->APB1ENR |= USART2EN;    // USART2 clock enable 0x20000
-}
-
-/*
- * GPIO Init
- */
-void GPIO_init(void){
-    // gpio AF PA2
-    GPIOA->AFR[0] &= ~0x0F00;    // clear
-    GPIOA->AFR[0] |= 0x7700;     // set AF7 function
-
-    GPIOA->MODER &= ~0x0CF0;     // clear
-    GPIOA->MODER |= 0x04A0;      // set to AF mode 10b PA2(Tx) PA3(Rx) & PA5(LED) as output 01b
-}
-
-int setBaud(int baud){
-    float baudResult = 16000000/16*baud;
-}
-
-/*
- * Initialise the USART
- */
-void USART_init(void){
-    // Configure USART Baud
-    USART2->BRR = 0x0683;        // set baud 9600
-    USART2->CR1 = TE | RE;       // set TE & RE
-    USART2->CR2 = 0x0000;
-    USART2->CR3 = 0x0000;
-    USART2->CR1 |= UE;       // Enable USART2
-}
 
 /*
  * LED ON PA5
@@ -66,32 +31,6 @@ void statusLED(int onoff){
         GPIOA->BSRR |= 0x0020 << 16; // LED off
         led1.ledstate = OFF;
     }
-}
-
-/*
- * write to USART a single character
- */
-void USART_write(int ch){
-    while(!(USART2->SR & TXE)){}
-        USART2->DR = (ch & 0xFF);
-}
-
-/*
- * write to USART a string of characters
- */
-void USART_write_string(char* charString){
-    for(int a = 0; a<strlen(charString);a++ ) {
-        USART_write(charString[a]);
-    }
-}
-
-
-/*
- * read USART
- */
-char USART_read(void){
-    while(!(USART2->SR & RXNE)){}
-    return USART2->DR;
 }
 
 /*

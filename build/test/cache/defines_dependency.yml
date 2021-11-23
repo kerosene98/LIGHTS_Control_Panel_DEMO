@@ -1,0 +1,13 @@
+---
+build/test/mocks/mock_stm32f4xx.c:
+- TEST
+build/test/mocks/mock_main.c:
+- TEST
+build/test/mocks/mock_stm32f4xx_hal.c:
+- TEST
+src/init.c:
+- TEST
+src/main.c:
+- TEST
+build/test/mocks/mock_init.c:
+- TEST

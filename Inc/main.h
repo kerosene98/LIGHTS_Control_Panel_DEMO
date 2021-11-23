@@ -37,15 +37,10 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-typedef struct LEDlamp;
-void RCC_init(void);
-void USART_init(void);
+typedef struct LEDlamp LEDlamp;
+
 void statusLED(int onoff);
-void GPIO_init(void);
-void USART_write(int ch);
-char USART_read(void);
 char* printMenu(void);
-void USART_write_string(char* charString);
 
 typedef enum {
     LEDOnFULL,
@@ -59,7 +54,7 @@ typedef enum {
     noOfLED
 } ledID;
 
-typedef struct{
+typedef struct LEDlamp{
     char *location;
     ledID GPIO;
     illuminationState ledstate;
@@ -105,7 +100,7 @@ void Error_Handler(void);
 #define SWO_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
-#define GPIOAEN (1 << 0)
+//#define GPIOAEN (1 << 0)
 #define GPIOBEN (1 << 1)
 #define GPIOCEN (1 << 2)
 #define GPIODEN (1 << 3)
@@ -114,14 +109,13 @@ void Error_Handler(void);
 #define GPIOGEN (1 << 6)
 #define GPIOHEN (1 << 7)
 
-#define USART2EN (1 << 17)
+
 #define USART3EN (1 << 18)
 #define USART4EN (1 << 19)
 #define USART5EN (1 << 20)
 
-#define TE 0x0008
-#define RE 0x0004
-#define UE 0x2000
+
+
 
 #define RXNE 0x0020
 #define TXE  0x0080

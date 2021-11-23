@@ -513,150 +513,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
-Src/main.obj: Src/main.c.obj
-.PHONY : Src/main.obj
-
-# target to build an object file
-Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/main.c.obj
-.PHONY : Src/main.c.obj
-
-Src/main.i: Src/main.c.i
-.PHONY : Src/main.i
-
-# target to preprocess a source file
-Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/main.c.i
-.PHONY : Src/main.c.i
-
-Src/main.s: Src/main.c.s
-.PHONY : Src/main.s
-
-# target to generate assembly for a file
-Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/main.c.s
-.PHONY : Src/main.c.s
-
-Src/stm32f4xx_hal_msp.obj: Src/stm32f4xx_hal_msp.c.obj
-.PHONY : Src/stm32f4xx_hal_msp.obj
-
-# target to build an object file
-Src/stm32f4xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-.PHONY : Src/stm32f4xx_hal_msp.c.obj
-
-Src/stm32f4xx_hal_msp.i: Src/stm32f4xx_hal_msp.c.i
-.PHONY : Src/stm32f4xx_hal_msp.i
-
-# target to preprocess a source file
-Src/stm32f4xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.i
-.PHONY : Src/stm32f4xx_hal_msp.c.i
-
-Src/stm32f4xx_hal_msp.s: Src/stm32f4xx_hal_msp.c.s
-.PHONY : Src/stm32f4xx_hal_msp.s
-
-# target to generate assembly for a file
-Src/stm32f4xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.s
-.PHONY : Src/stm32f4xx_hal_msp.c.s
-
-Src/stm32f4xx_it.obj: Src/stm32f4xx_it.c.obj
-.PHONY : Src/stm32f4xx_it.obj
-
-# target to build an object file
-Src/stm32f4xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj
-.PHONY : Src/stm32f4xx_it.c.obj
-
-Src/stm32f4xx_it.i: Src/stm32f4xx_it.c.i
-.PHONY : Src/stm32f4xx_it.i
-
-# target to preprocess a source file
-Src/stm32f4xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.i
-.PHONY : Src/stm32f4xx_it.c.i
-
-Src/stm32f4xx_it.s: Src/stm32f4xx_it.c.s
-.PHONY : Src/stm32f4xx_it.s
-
-# target to generate assembly for a file
-Src/stm32f4xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.s
-.PHONY : Src/stm32f4xx_it.c.s
-
-Src/syscalls.obj: Src/syscalls.c.obj
-.PHONY : Src/syscalls.obj
-
-# target to build an object file
-Src/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj
-.PHONY : Src/syscalls.c.obj
-
-Src/syscalls.i: Src/syscalls.c.i
-.PHONY : Src/syscalls.i
-
-# target to preprocess a source file
-Src/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/syscalls.c.i
-.PHONY : Src/syscalls.c.i
-
-Src/syscalls.s: Src/syscalls.c.s
-.PHONY : Src/syscalls.s
-
-# target to generate assembly for a file
-Src/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/syscalls.c.s
-.PHONY : Src/syscalls.c.s
-
-Src/sysmem.obj: Src/sysmem.c.obj
-.PHONY : Src/sysmem.obj
-
-# target to build an object file
-Src/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj
-.PHONY : Src/sysmem.c.obj
-
-Src/sysmem.i: Src/sysmem.c.i
-.PHONY : Src/sysmem.i
-
-# target to preprocess a source file
-Src/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/sysmem.c.i
-.PHONY : Src/sysmem.c.i
-
-Src/sysmem.s: Src/sysmem.c.s
-.PHONY : Src/sysmem.s
-
-# target to generate assembly for a file
-Src/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/sysmem.c.s
-.PHONY : Src/sysmem.c.s
-
-Src/system_stm32f4xx.obj: Src/system_stm32f4xx.c.obj
-.PHONY : Src/system_stm32f4xx.obj
-
-# target to build an object file
-Src/system_stm32f4xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj
-.PHONY : Src/system_stm32f4xx.c.obj
-
-Src/system_stm32f4xx.i: Src/system_stm32f4xx.c.i
-.PHONY : Src/system_stm32f4xx.i
-
-# target to preprocess a source file
-Src/system_stm32f4xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.i
-.PHONY : Src/system_stm32f4xx.c.i
-
-Src/system_stm32f4xx.s: Src/system_stm32f4xx.c.s
-.PHONY : Src/system_stm32f4xx.s
-
-# target to generate assembly for a file
-Src/system_stm32f4xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.s
-.PHONY : Src/system_stm32f4xx.c.s
-
 Startup/startup_stm32f446retx.obj: Startup/startup_stm32f446retx.s.obj
 .PHONY : Startup/startup_stm32f446retx.obj
 
@@ -664,6 +520,174 @@ Startup/startup_stm32f446retx.obj: Startup/startup_stm32f446retx.s.obj
 Startup/startup_stm32f446retx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
 .PHONY : Startup/startup_stm32f446retx.s.obj
+
+src/init.obj: src/init.c.obj
+.PHONY : src/init.obj
+
+# target to build an object file
+src/init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/init.c.obj
+.PHONY : src/init.c.obj
+
+src/init.i: src/init.c.i
+.PHONY : src/init.i
+
+# target to preprocess a source file
+src/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/init.c.i
+.PHONY : src/init.c.i
+
+src/init.s: src/init.c.s
+.PHONY : src/init.s
+
+# target to generate assembly for a file
+src/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/init.c.s
+.PHONY : src/init.c.s
+
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/main.c.obj
+.PHONY : src/main.c.obj
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/stm32f4xx_hal_msp.obj: src/stm32f4xx_hal_msp.c.obj
+.PHONY : src/stm32f4xx_hal_msp.obj
+
+# target to build an object file
+src/stm32f4xx_hal_msp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj
+.PHONY : src/stm32f4xx_hal_msp.c.obj
+
+src/stm32f4xx_hal_msp.i: src/stm32f4xx_hal_msp.c.i
+.PHONY : src/stm32f4xx_hal_msp.i
+
+# target to preprocess a source file
+src/stm32f4xx_hal_msp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.i
+.PHONY : src/stm32f4xx_hal_msp.c.i
+
+src/stm32f4xx_hal_msp.s: src/stm32f4xx_hal_msp.c.s
+.PHONY : src/stm32f4xx_hal_msp.s
+
+# target to generate assembly for a file
+src/stm32f4xx_hal_msp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.s
+.PHONY : src/stm32f4xx_hal_msp.c.s
+
+src/stm32f4xx_it.obj: src/stm32f4xx_it.c.obj
+.PHONY : src/stm32f4xx_it.obj
+
+# target to build an object file
+src/stm32f4xx_it.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+.PHONY : src/stm32f4xx_it.c.obj
+
+src/stm32f4xx_it.i: src/stm32f4xx_it.c.i
+.PHONY : src/stm32f4xx_it.i
+
+# target to preprocess a source file
+src/stm32f4xx_it.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.i
+.PHONY : src/stm32f4xx_it.c.i
+
+src/stm32f4xx_it.s: src/stm32f4xx_it.c.s
+.PHONY : src/stm32f4xx_it.s
+
+# target to generate assembly for a file
+src/stm32f4xx_it.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.s
+.PHONY : src/stm32f4xx_it.c.s
+
+src/syscalls.obj: src/syscalls.c.obj
+.PHONY : src/syscalls.obj
+
+# target to build an object file
+src/syscalls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/syscalls.c.obj
+.PHONY : src/syscalls.c.obj
+
+src/syscalls.i: src/syscalls.c.i
+.PHONY : src/syscalls.i
+
+# target to preprocess a source file
+src/syscalls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/syscalls.c.i
+.PHONY : src/syscalls.c.i
+
+src/syscalls.s: src/syscalls.c.s
+.PHONY : src/syscalls.s
+
+# target to generate assembly for a file
+src/syscalls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/syscalls.c.s
+.PHONY : src/syscalls.c.s
+
+src/sysmem.obj: src/sysmem.c.obj
+.PHONY : src/sysmem.obj
+
+# target to build an object file
+src/sysmem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+.PHONY : src/sysmem.c.obj
+
+src/sysmem.i: src/sysmem.c.i
+.PHONY : src/sysmem.i
+
+# target to preprocess a source file
+src/sysmem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/sysmem.c.i
+.PHONY : src/sysmem.c.i
+
+src/sysmem.s: src/sysmem.c.s
+.PHONY : src/sysmem.s
+
+# target to generate assembly for a file
+src/sysmem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/sysmem.c.s
+.PHONY : src/sysmem.c.s
+
+src/system_stm32f4xx.obj: src/system_stm32f4xx.c.obj
+.PHONY : src/system_stm32f4xx.obj
+
+# target to build an object file
+src/system_stm32f4xx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
+.PHONY : src/system_stm32f4xx.c.obj
+
+src/system_stm32f4xx.i: src/system_stm32f4xx.c.i
+.PHONY : src/system_stm32f4xx.i
+
+# target to preprocess a source file
+src/system_stm32f4xx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.i
+.PHONY : src/system_stm32f4xx.c.i
+
+src/system_stm32f4xx.s: src/system_stm32f4xx.c.s
+.PHONY : src/system_stm32f4xx.s
+
+# target to generate assembly for a file
+src/system_stm32f4xx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.s
+.PHONY : src/system_stm32f4xx.c.s
 
 # Help Target
 help:
@@ -722,25 +746,28 @@ help:
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s"
-	@echo "... Src/main.obj"
-	@echo "... Src/main.i"
-	@echo "... Src/main.s"
-	@echo "... Src/stm32f4xx_hal_msp.obj"
-	@echo "... Src/stm32f4xx_hal_msp.i"
-	@echo "... Src/stm32f4xx_hal_msp.s"
-	@echo "... Src/stm32f4xx_it.obj"
-	@echo "... Src/stm32f4xx_it.i"
-	@echo "... Src/stm32f4xx_it.s"
-	@echo "... Src/syscalls.obj"
-	@echo "... Src/syscalls.i"
-	@echo "... Src/syscalls.s"
-	@echo "... Src/sysmem.obj"
-	@echo "... Src/sysmem.i"
-	@echo "... Src/sysmem.s"
-	@echo "... Src/system_stm32f4xx.obj"
-	@echo "... Src/system_stm32f4xx.i"
-	@echo "... Src/system_stm32f4xx.s"
 	@echo "... Startup/startup_stm32f446retx.obj"
+	@echo "... src/init.obj"
+	@echo "... src/init.i"
+	@echo "... src/init.s"
+	@echo "... src/main.obj"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/stm32f4xx_hal_msp.obj"
+	@echo "... src/stm32f4xx_hal_msp.i"
+	@echo "... src/stm32f4xx_hal_msp.s"
+	@echo "... src/stm32f4xx_it.obj"
+	@echo "... src/stm32f4xx_it.i"
+	@echo "... src/stm32f4xx_it.s"
+	@echo "... src/syscalls.obj"
+	@echo "... src/syscalls.i"
+	@echo "... src/syscalls.s"
+	@echo "... src/sysmem.obj"
+	@echo "... src/sysmem.i"
+	@echo "... src/sysmem.s"
+	@echo "... src/system_stm32f4xx.obj"
+	@echo "... src/system_stm32f4xx.i"
+	@echo "... src/system_stm32f4xx.s"
 .PHONY : help
 
 

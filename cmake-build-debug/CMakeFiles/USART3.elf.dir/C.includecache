@@ -306,13 +306,25 @@ stm32f4xx_hal_lptim.h
 stm32f4xx_hal_mmc.h
 ../Inc/stm32f4xx_hal_mmc.h
 
-/home/labtest/CLionProjects/USART3/Src/main.c
+/home/labtest/CLionProjects/USART3/src/init.h
+stm32f4xx_hal.h
+/home/labtest/CLionProjects/USART3/src/stm32f4xx_hal.h
+
+/home/labtest/CLionProjects/USART3/src/main.c
 stm32f4xx.h
-/home/labtest/CLionProjects/USART3/Src/stm32f4xx.h
+/home/labtest/CLionProjects/USART3/src/stm32f4xx.h
 main.h
-/home/labtest/CLionProjects/USART3/Src/main.h
+/home/labtest/CLionProjects/USART3/src/main.h
 string.h
-/home/labtest/CLionProjects/USART3/Src/string.h
+/home/labtest/CLionProjects/USART3/src/string.h
 stdlib.h
-/home/labtest/CLionProjects/USART3/Src/stdlib.h
+/home/labtest/CLionProjects/USART3/src/stdlib.h
+init.h
+/home/labtest/CLionProjects/USART3/src/init.h
+usart.h
+/home/labtest/CLionProjects/USART3/src/usart.h
+
+/home/labtest/CLionProjects/USART3/src/usart.h
+stm32f4xx_hal.h
+/home/labtest/CLionProjects/USART3/src/stm32f4xx_hal.h
 

@@ -38,6 +38,11 @@
   :support:
     - test/support
   :libraries: []
+  :include:
+    - Inc/**
+    - Drivers/STM32F4xx_HAL_Driver/Inc/**
+    - Drivers/CMSIS/Device/ST/STM32F4xx/Include/**
+    - Drivers/CMSIS/Include/**
 
 :defines:
   # in order to add common defines:

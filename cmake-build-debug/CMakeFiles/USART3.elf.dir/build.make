@@ -274,87 +274,9 @@ CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
-CMakeFiles/USART3.elf.dir/Src/main.c.obj: CMakeFiles/USART3.elf.dir/flags.make
-CMakeFiles/USART3.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/USART3.elf.dir/Src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/Src/main.c.obj -c /home/labtest/CLionProjects/USART3/Src/main.c
-
-CMakeFiles/USART3.elf.dir/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/Src/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/Src/main.c > CMakeFiles/USART3.elf.dir/Src/main.c.i
-
-CMakeFiles/USART3.elf.dir/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Src/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Src/main.c -o CMakeFiles/USART3.elf.dir/Src/main.c.s
-
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/USART3.elf.dir/flags.make
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj -c /home/labtest/CLionProjects/USART3/Src/stm32f4xx_hal_msp.c
-
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/Src/stm32f4xx_hal_msp.c > CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.i
-
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Src/stm32f4xx_hal_msp.c -o CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.s
-
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/USART3.elf.dir/flags.make
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj -c /home/labtest/CLionProjects/USART3/Src/stm32f4xx_it.c
-
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/Src/stm32f4xx_it.c > CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.i
-
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Src/stm32f4xx_it.c -o CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.s
-
-CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj: CMakeFiles/USART3.elf.dir/flags.make
-CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj -c /home/labtest/CLionProjects/USART3/Src/syscalls.c
-
-CMakeFiles/USART3.elf.dir/Src/syscalls.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/Src/syscalls.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/Src/syscalls.c > CMakeFiles/USART3.elf.dir/Src/syscalls.c.i
-
-CMakeFiles/USART3.elf.dir/Src/syscalls.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Src/syscalls.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Src/syscalls.c -o CMakeFiles/USART3.elf.dir/Src/syscalls.c.s
-
-CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj: CMakeFiles/USART3.elf.dir/flags.make
-CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj: ../Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj -c /home/labtest/CLionProjects/USART3/Src/sysmem.c
-
-CMakeFiles/USART3.elf.dir/Src/sysmem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/Src/sysmem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/Src/sysmem.c > CMakeFiles/USART3.elf.dir/Src/sysmem.c.i
-
-CMakeFiles/USART3.elf.dir/Src/sysmem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Src/sysmem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Src/sysmem.c -o CMakeFiles/USART3.elf.dir/Src/sysmem.c.s
-
-CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/USART3.elf.dir/flags.make
-CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj -c /home/labtest/CLionProjects/USART3/Src/system_stm32f4xx.c
-
-CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/Src/system_stm32f4xx.c > CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.i
-
-CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/Src/system_stm32f4xx.c -o CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.s
-
 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj: CMakeFiles/USART3.elf.dir/flags.make
 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj: ../Startup/startup_stm32f446retx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj -c /home/labtest/CLionProjects/USART3/Startup/startup_stm32f446retx.s
 
 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.i: cmake_force
@@ -364,6 +286,97 @@ CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.i: cmake_force
 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/labtest/CLionProjects/USART3/Startup/startup_stm32f446retx.s -o CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.s
+
+CMakeFiles/USART3.elf.dir/src/init.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/init.c.obj: ../src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/USART3.elf.dir/src/init.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/init.c.obj -c /home/labtest/CLionProjects/USART3/src/init.c
+
+CMakeFiles/USART3.elf.dir/src/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/init.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/init.c > CMakeFiles/USART3.elf.dir/src/init.c.i
+
+CMakeFiles/USART3.elf.dir/src/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/init.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/init.c -o CMakeFiles/USART3.elf.dir/src/init.c.s
+
+CMakeFiles/USART3.elf.dir/src/main.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/main.c.obj: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/USART3.elf.dir/src/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/main.c.obj -c /home/labtest/CLionProjects/USART3/src/main.c
+
+CMakeFiles/USART3.elf.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/main.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/main.c > CMakeFiles/USART3.elf.dir/src/main.c.i
+
+CMakeFiles/USART3.elf.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/main.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/main.c -o CMakeFiles/USART3.elf.dir/src/main.c.s
+
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj: ../src/stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj -c /home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c
+
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c > CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.i
+
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c -o CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.s
+
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj: ../src/stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj -c /home/labtest/CLionProjects/USART3/src/stm32f4xx_it.c
+
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/stm32f4xx_it.c > CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.i
+
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/stm32f4xx_it.c -o CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.s
+
+CMakeFiles/USART3.elf.dir/src/syscalls.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/syscalls.c.obj: ../src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/USART3.elf.dir/src/syscalls.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/syscalls.c.obj -c /home/labtest/CLionProjects/USART3/src/syscalls.c
+
+CMakeFiles/USART3.elf.dir/src/syscalls.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/syscalls.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/syscalls.c > CMakeFiles/USART3.elf.dir/src/syscalls.c.i
+
+CMakeFiles/USART3.elf.dir/src/syscalls.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/syscalls.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/syscalls.c -o CMakeFiles/USART3.elf.dir/src/syscalls.c.s
+
+CMakeFiles/USART3.elf.dir/src/sysmem.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/sysmem.c.obj: ../src/sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/USART3.elf.dir/src/sysmem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/sysmem.c.obj -c /home/labtest/CLionProjects/USART3/src/sysmem.c
+
+CMakeFiles/USART3.elf.dir/src/sysmem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/sysmem.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/sysmem.c > CMakeFiles/USART3.elf.dir/src/sysmem.c.i
+
+CMakeFiles/USART3.elf.dir/src/sysmem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/sysmem.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/sysmem.c -o CMakeFiles/USART3.elf.dir/src/sysmem.c.s
+
+CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj: CMakeFiles/USART3.elf.dir/flags.make
+CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj: ../src/system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj -c /home/labtest/CLionProjects/USART3/src/system_stm32f4xx.c
+
+CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/labtest/CLionProjects/USART3/src/system_stm32f4xx.c > CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.i
+
+CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/labtest/CLionProjects/USART3/src/system_stm32f4xx.c -o CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.s
 
 # Object files for target USART3.elf
 USART3_elf_OBJECTS = \
@@ -383,13 +396,14 @@ USART3_elf_OBJECTS = \
 "CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
-"CMakeFiles/USART3.elf.dir/Src/main.c.obj" \
-"CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj" \
-"CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj" \
-"CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj" \
-"CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj" \
-"CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj" \
-"CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj"
+"CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj" \
+"CMakeFiles/USART3.elf.dir/src/init.c.obj" \
+"CMakeFiles/USART3.elf.dir/src/main.c.obj" \
+"CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj" \
+"CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj" \
+"CMakeFiles/USART3.elf.dir/src/syscalls.c.obj" \
+"CMakeFiles/USART3.elf.dir/src/sysmem.c.obj" \
+"CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj"
 
 # External object files for target USART3.elf
 USART3_elf_EXTERNAL_OBJECTS =
@@ -410,16 +424,17 @@ USART3.elf: CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx
 USART3.elf: CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 USART3.elf: CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 USART3.elf: CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-USART3.elf: CMakeFiles/USART3.elf.dir/Src/main.c.obj
-USART3.elf: CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-USART3.elf: CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj
-USART3.elf: CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj
-USART3.elf: CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj
-USART3.elf: CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj
 USART3.elf: CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/init.c.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/main.c.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/syscalls.c.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+USART3.elf: CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
 USART3.elf: CMakeFiles/USART3.elf.dir/build.make
 USART3.elf: CMakeFiles/USART3.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable USART3.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/labtest/CLionProjects/USART3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking C executable USART3.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/USART3.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/labtest/CLionProjects/USART3/cmake-build-debug/USART3.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/labtest/CLionProjects/USART3/cmake-build-debug/USART3.bin"

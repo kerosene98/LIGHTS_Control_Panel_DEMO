@@ -531,7 +531,41 @@ CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-CMakeFiles/USART3.elf.dir/Src/main.c.obj: \
+CMakeFiles/USART3.elf.dir/src/init.c.obj: \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ ../Drivers/CMSIS/Include/cmsis_armcc.h \
+ ../Drivers/CMSIS/Include/cmsis_armclang.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/core_cm4.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Inc/stm32f4xx_hal_conf.h \
+ ../src/init.c \
+ ../src/init.h
+CMakeFiles/USART3.elf.dir/src/main.c.obj: \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
@@ -564,17 +598,19 @@ CMakeFiles/USART3.elf.dir/Src/main.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
- ../Src/main.c
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_hal_msp.c.obj: \
- ../Src/stm32f4xx_hal_msp.c
-CMakeFiles/USART3.elf.dir/Src/stm32f4xx_it.c.obj: \
+ ../src/init.h \
+ ../src/main.c \
+ ../src/usart.h
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj: \
+ ../src/stm32f4xx_hal_msp.c
+CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj: \
  ../Inc/stm32f4xx_it.h \
- ../Src/stm32f4xx_it.c
-CMakeFiles/USART3.elf.dir/Src/syscalls.c.obj: \
- ../Src/syscalls.c
-CMakeFiles/USART3.elf.dir/Src/sysmem.c.obj: \
- ../Src/sysmem.c
-CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj: \
+ ../src/stm32f4xx_it.c
+CMakeFiles/USART3.elf.dir/src/syscalls.c.obj: \
+ ../src/syscalls.c
+CMakeFiles/USART3.elf.dir/src/sysmem.c.obj: \
+ ../src/sysmem.c
+CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj: \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
@@ -606,4 +642,4 @@ CMakeFiles/USART3.elf.dir/Src/system_stm32f4xx.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Inc/stm32f4xx_hal_conf.h \
- ../Src/system_stm32f4xx.c
+ ../src/system_stm32f4xx.c
