@@ -273,19 +273,52 @@
 		<Unit filename="/home/labtest/CLionProjects/USART3/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="USART3.elf"/>
 		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/button.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/davesusart.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/init.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/led.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/main.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/menu.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/stm32f4xx_hal_conf.h">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/Inc/stm32f4xx_it.h">
+			<Option target="USART3.elf"/>
+		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/STM32F446RETX_FLASH.ld">
 			<Option target="USART3.elf"/>
 		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/Startup/startup_stm32f446retx.s">
 			<Option target="USART3.elf"/>
 		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/button.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/davesusart.c">
+			<Option target="USART3.elf"/>
+		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/src/init.c">
 			<Option target="USART3.elf"/>
 		</Unit>
-		<Unit filename="/home/labtest/CLionProjects/USART3/src/init.h">
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/led.c">
 			<Option target="USART3.elf"/>
 		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/src/main.c">
+			<Option target="USART3.elf"/>
+		</Unit>
+		<Unit filename="/home/labtest/CLionProjects/USART3/src/menu.c">
 			<Option target="USART3.elf"/>
 		</Unit>
 		<Unit filename="/home/labtest/CLionProjects/USART3/src/stm32f4xx_hal_msp.c">

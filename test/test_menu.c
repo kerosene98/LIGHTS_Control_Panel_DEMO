@@ -12,9 +12,8 @@ void tearDown(void)
 {
 }
 
-void test_menu_NeedToImplement(void)
+void test_no_test(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement menu");
+    TEST_ASSERT_EQUAL(1, 1);
 }
-
 #endif // TEST

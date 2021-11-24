@@ -19,3 +19,5 @@ src/davesusart.c:
 - TEST
 src/menu.c:
 - TEST
+src/led.c:
+- TEST

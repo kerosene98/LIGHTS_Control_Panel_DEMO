@@ -2,17 +2,17 @@
 :source:
   :path: test
   :file: test_menu.c
-:successes: []
-:failures: []
-:ignores:
-- :test: test_menu_NeedToImplement
-  :line: 17
-  :message: Need to Implement menu
+:successes:
+- :test: test_no_test
+  :line: 15
+  :message: ''
   :unity_test_time: 0
+:failures: []
+:ignores: []
 :counts:
   :total: 1
-  :passed: 0
+  :passed: 1
   :failed: 0
-  :ignored: 1
+  :ignored: 0
 :stdout: []
-:time: 0.001108394999846496
+:time: 0.0012271060004422907

@@ -521,6 +521,54 @@ Startup/startup_stm32f446retx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
 .PHONY : Startup/startup_stm32f446retx.s.obj
 
+src/button.obj: src/button.c.obj
+.PHONY : src/button.obj
+
+# target to build an object file
+src/button.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/button.c.obj
+.PHONY : src/button.c.obj
+
+src/button.i: src/button.c.i
+.PHONY : src/button.i
+
+# target to preprocess a source file
+src/button.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/button.c.i
+.PHONY : src/button.c.i
+
+src/button.s: src/button.c.s
+.PHONY : src/button.s
+
+# target to generate assembly for a file
+src/button.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/button.c.s
+.PHONY : src/button.c.s
+
+src/davesusart.obj: src/davesusart.c.obj
+.PHONY : src/davesusart.obj
+
+# target to build an object file
+src/davesusart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/davesusart.c.obj
+.PHONY : src/davesusart.c.obj
+
+src/davesusart.i: src/davesusart.c.i
+.PHONY : src/davesusart.i
+
+# target to preprocess a source file
+src/davesusart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/davesusart.c.i
+.PHONY : src/davesusart.c.i
+
+src/davesusart.s: src/davesusart.c.s
+.PHONY : src/davesusart.s
+
+# target to generate assembly for a file
+src/davesusart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/davesusart.c.s
+.PHONY : src/davesusart.c.s
+
 src/init.obj: src/init.c.obj
 .PHONY : src/init.obj
 
@@ -545,6 +593,30 @@ src/init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/init.c.s
 .PHONY : src/init.c.s
 
+src/led.obj: src/led.c.obj
+.PHONY : src/led.obj
+
+# target to build an object file
+src/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/led.c.obj
+.PHONY : src/led.c.obj
+
+src/led.i: src/led.c.i
+.PHONY : src/led.i
+
+# target to preprocess a source file
+src/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/led.c.i
+.PHONY : src/led.c.i
+
+src/led.s: src/led.c.s
+.PHONY : src/led.s
+
+# target to generate assembly for a file
+src/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/led.c.s
+.PHONY : src/led.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -568,6 +640,30 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/menu.obj: src/menu.c.obj
+.PHONY : src/menu.obj
+
+# target to build an object file
+src/menu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/menu.c.obj
+.PHONY : src/menu.c.obj
+
+src/menu.i: src/menu.c.i
+.PHONY : src/menu.i
+
+# target to preprocess a source file
+src/menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/menu.c.i
+.PHONY : src/menu.c.i
+
+src/menu.s: src/menu.c.s
+.PHONY : src/menu.s
+
+# target to generate assembly for a file
+src/menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/USART3.elf.dir/build.make CMakeFiles/USART3.elf.dir/src/menu.c.s
+.PHONY : src/menu.c.s
 
 src/stm32f4xx_hal_msp.obj: src/stm32f4xx_hal_msp.c.obj
 .PHONY : src/stm32f4xx_hal_msp.obj
@@ -747,12 +843,24 @@ help:
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s"
 	@echo "... Startup/startup_stm32f446retx.obj"
+	@echo "... src/button.obj"
+	@echo "... src/button.i"
+	@echo "... src/button.s"
+	@echo "... src/davesusart.obj"
+	@echo "... src/davesusart.i"
+	@echo "... src/davesusart.s"
 	@echo "... src/init.obj"
 	@echo "... src/init.i"
 	@echo "... src/init.s"
+	@echo "... src/led.obj"
+	@echo "... src/led.i"
+	@echo "... src/led.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/menu.obj"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
 	@echo "... src/stm32f4xx_hal_msp.obj"
 	@echo "... src/stm32f4xx_hal_msp.i"
 	@echo "... src/stm32f4xx_hal_msp.s"

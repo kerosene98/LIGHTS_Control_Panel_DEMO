@@ -1,4 +1,6 @@
 #include "davesusart.h"
+#include "string.h"
+#include "stm32f4xx_hal.h"
 
 /*
  * write to USART a string of characters

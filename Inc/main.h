@@ -17,9 +17,7 @@
   *
   ******************************************************************************
   */
-/* USER CODE END Header */
 
-/* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __MAIN_H
 #define __MAIN_H
 
@@ -27,105 +25,9 @@
 extern "C" {
 #endif
 
-/* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
 
-/* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
-
-/* USER CODE END Includes */
-
-/* Exported types ------------------------------------------------------------*/
-/* USER CODE BEGIN ET */
-typedef struct LEDlamp LEDlamp;
-
-void statusLED(int onoff);
-char* printMenu(void);
-
-void USART_write_string(char* charString);
-char USART_read(void);
-void USART_write(int ch);
-
-typedef enum {
-    LEDOnFULL,
-    LEDOFFFULL,
-    NoOfIlluminationStates
-}illuminationState;
-
-typedef enum {
-    emptyLED,
-    LD1,
-    noOfLED
-} ledID;
-
-typedef struct LEDlamp{
-    char *location;
-    ledID GPIO;
-    illuminationState ledstate;
-} LEDlamp;
-
-
-/* USER CODE END ET */
-
-/* Exported constants --------------------------------------------------------*/
-/* USER CODE BEGIN EC */
-
-/* USER CODE END EC */
-
-/* Exported macro ------------------------------------------------------------*/
-/* USER CODE BEGIN EM */
-
-/* USER CODE END EM */
-
-/* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
-
-/* USER CODE BEGIN EFP */
-
-/* USER CODE END EFP */
-
-/* Private defines -----------------------------------------------------------*/
-#define ON  1
-#define OFF 0
-
-#define B1_Pin GPIO_PIN_13
-#define B1_GPIO_Port GPIOC
-#define USART_TX_Pin GPIO_PIN_2
-#define USART_TX_GPIO_Port GPIOA
-#define USART_RX_Pin GPIO_PIN_3
-#define USART_RX_GPIO_Port GPIOA
-#define LD2_Pin GPIO_PIN_5
-#define LD2_GPIO_Port GPIOA
-#define TMS_Pin GPIO_PIN_13
-#define TMS_GPIO_Port GPIOA
-#define TCK_Pin GPIO_PIN_14
-#define TCK_GPIO_Port GPIOA
-#define SWO_Pin GPIO_PIN_3
-#define SWO_GPIO_Port GPIOB
-/* USER CODE BEGIN Private defines */
-
-//#define GPIOAEN (1 << 0)
-#define GPIOBEN (1 << 1)
-#define GPIOCEN (1 << 2)
-#define GPIODEN (1 << 3)
-#define GPIOEEN (1 << 4)
-#define GPIOFEN (1 << 5)
-#define GPIOGEN (1 << 6)
-#define GPIOHEN (1 << 7)
-
-
-#define USART3EN (1 << 18)
-#define USART4EN (1 << 19)
-#define USART5EN (1 << 20)
-
-
-
-
-#define RXNE 0x0020
-#define TXE  0x0080
-
-
-/* USER CODE END Private defines */
 
 #ifdef __cplusplus
 }
