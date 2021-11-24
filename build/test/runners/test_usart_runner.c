@@ -75,7 +75,7 @@ static void run_test(UnityTestFunction func, const char* name, UNITY_LINE_TYPE l
 int main(void)
 {
   UnityBegin("test_usart.c");
-  run_test(test_usart_read, "test_usart_read", 15);
+  run_test(test_usart_read, "test_usart_read", 18);
 
   return UnityEnd();
 }

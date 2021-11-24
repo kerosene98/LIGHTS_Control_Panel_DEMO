@@ -5,7 +5,7 @@
 :successes: []
 :failures:
 - :test: test_usart_read
-  :line: 17
+  :line: 20
   :message: Expected 65 Was 1
   :unity_test_time: 0
 :ignores: []
@@ -15,4 +15,4 @@
   :failed: 1
   :ignored: 0
 :stdout: []
-:time: 0.0012430240021785721
+:time: 0.0011795770001299388

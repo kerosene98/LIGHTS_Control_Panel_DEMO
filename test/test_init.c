@@ -5,7 +5,7 @@
 #include "init.h"
 #include "mock_stm32f4xx_hal.h"
 
-#define STM32F446xx
+
 
 void setUp(void)
 {

@@ -1,8 +1,7 @@
 #ifndef USART_H
 #define USART_H
 
-#include "mock_stm32f4xx_hal.h"
-#include "usart.h"
+#include "stm32f4xx_hal.h"
 
 void USART_write_string(char* charString);
 char USART_read(void);

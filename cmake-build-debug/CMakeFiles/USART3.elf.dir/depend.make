@@ -562,9 +562,9 @@ CMakeFiles/USART3.elf.dir/src/init.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Inc/init.h \
  ../Inc/stm32f4xx_hal_conf.h \
- ../src/init.c \
- ../src/init.h
+ ../src/init.c
 CMakeFiles/USART3.elf.dir/src/main.c.obj: \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -596,10 +596,11 @@ CMakeFiles/USART3.elf.dir/src/main.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Inc/init.h \
  ../Inc/main.h \
  ../Inc/stm32f4xx_hal_conf.h \
- ../src/init.h \
- ../src/main.c
+ ../src/main.c \
+ ../src/menu.h
 CMakeFiles/USART3.elf.dir/src/stm32f4xx_hal_msp.c.obj: \
  ../src/stm32f4xx_hal_msp.c
 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj: \

@@ -13,3 +13,9 @@ build/test/mocks/mock_init.c:
 - TEST
 src/usart.c:
 - TEST
+src/button.c:
+- TEST
+src/davesusart.c:
+- TEST
+src/menu.c:
+- TEST

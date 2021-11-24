@@ -3,11 +3,12 @@
  * @author David Gelkin <david.gelkin@gmail.com>
  */
 
-#include "stm32f4xx.h"
+//#include "stm32f4xx.h"
 #include "main.h"
 #include "string.h"
 #include "stdlib.h"
 #include "init.h"
+#include "menu.h"
 
 // Global
 LEDlamp led1;
@@ -18,9 +19,8 @@ char* CLEARDISPLAY = "\n\n\n\n\n\n\n\n\n\n";
 char* APPHELP = "\n -APP HELP- \r\nThis is a demo app using USART to illuminate an LED.\r\n"
                 "The LED can also be toggled by pressing the onboard default Button.\r\n";
 
-
 /*
- * write to USART a string of characters
+ * Write a string to the USART bus
  */
 void USART_write_string(char* charString){
     for(int a = 0; a<strlen(charString);a++ ) {
@@ -29,7 +29,7 @@ void USART_write_string(char* charString){
 }
 
 /*
- * read USART
+ * read from the USART bus
  */
 char USART_read(void){
     while(!(USART2->SR & RXNE)){}
@@ -37,12 +37,13 @@ char USART_read(void){
 }
 
 /*
- * write to USART a single character
+ * write a character to the USART bus
  */
 void USART_write(int ch){
     while(!(USART2->SR & TXE)){}
     USART2->DR = (ch & 0xFF);
 }
+
 /*
  * LED ON PA5
  */
@@ -55,26 +56,6 @@ void statusLED(int onoff){
         GPIOA->BSRR |= 0x0020 << 16; // LED off
         led1.ledstate = OFF;
     }
-}
-
-/*
- * Hard coded menu of options to control app
- */
-char* printMenu(void){
-    char *menu = "\r\n------------------------------\r\n"
-                 "*           MENU             *\r\n"
-                 "------------------------------\r\n"
-                 "    1    - \tLED ON in Kitchen\r\n"
-                 "    0    - \tLED OFF in Kitchen\r\n"
-                 "spacebar - \tDisplay this menu\r\n"
-                 " h or H  - \tDisplay app help\r\n"
-                 " s or S  - \tPrint status of LED\r\n"
-                 "   c     - \tClear display with 10* line feeds\r\n"
-                 "\r\n"
-                 " esc, q 0r Q  - \tQuit\r\n"
-                 "\r\n"
-                 "\r\n";
-    return menu;
 }
 
 /*

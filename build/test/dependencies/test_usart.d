@@ -1,8 +1,7 @@
 build/test/out/c/test_usart.o: test/test_usart.c \
  /var/lib/gems/2.5.0/gems/ceedling-0.31.1/vendor/unity/src/unity.h \
  /var/lib/gems/2.5.0/gems/ceedling-0.31.1/vendor/unity/src/unity_internals.h \
- src/usart.h build/test/mocks/mock_stm32f4xx_hal.h \
- Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ Inc/davesusart.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  Inc/stm32f4xx_hal_conf.h \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
@@ -25,4 +24,4 @@ build/test/out/c/test_usart.o: test/test_usart.c \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h src/usart.h
+ Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h

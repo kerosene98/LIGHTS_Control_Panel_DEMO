@@ -1,7 +1,7 @@
 build/test/out/c/test_init.o: test/test_init.c \
  /var/lib/gems/2.5.0/gems/ceedling-0.31.1/vendor/unity/src/unity.h \
  /var/lib/gems/2.5.0/gems/ceedling-0.31.1/vendor/unity/src/unity_internals.h \
- src/init.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ Inc/init.h Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  Inc/stm32f4xx_hal_conf.h \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \

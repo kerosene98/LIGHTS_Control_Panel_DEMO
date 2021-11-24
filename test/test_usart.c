@@ -2,10 +2,13 @@
 
 #include "unity.h"
 
-#include "usart.h"
+// TODO create test case framework for USART!!
+
+#include "davesusart.h"
 
 void setUp(void)
 {
+    #define STM32F446xx
 }
 
 void tearDown(void)
