@@ -15,6 +15,9 @@ LEDlamp led1;
 LEDlamp led2;
 LEDlamp led3;
 
+// Ensure compiler does not optimize out variable
+volatile int APPisOn = ON;
+
 /*
  * Main function
  */
@@ -29,7 +32,7 @@ int main(void){
     placeLED(&led2, "Bedroom");
     placeLED(&led3, "Porch");
 
-    int APPisOn = ON;
+
 
     //print initial menu as app starts
     USART_write_string(printMenu());
@@ -39,14 +42,48 @@ int main(void){
         c = USART_read();
         //USART_write(c); // loopback for debugging
 
-        // turn LED ON
-        if(c == '1') {
+        // turn LED1 ON
+        if(c == '7') {
             statusLED(&led1, ON);
         }
 
-        // 0 turn LED OFF
-        if(c =='0') {
+        // turn LED1 OFF
+        if(c =='1') {
             statusLED(&led1, OFF);
+        }
+
+        // turn LED2 ON
+        if(c == '8') {
+            statusLED(&led2, ON);
+        }
+
+        // turn LED2 OFF
+        if(c =='2') {
+            statusLED(&led2, OFF);
+        }
+
+        // turn LED2 ON
+        if(c == '9') {
+            statusLED(&led3, ON);
+        }
+
+        // turn LED2 OFF
+        if(c =='3') {
+            statusLED(&led3, OFF);
+        }
+
+        // turn ALL LED OFF
+        if(c =='5') {
+            statusLED(&led1, OFF);
+            statusLED(&led2, OFF);
+            statusLED(&led3, OFF);
+        }
+
+        // turn ALL LED ON
+        if(c =='0') {
+            statusLED(&led1, ON);
+            statusLED(&led2, ON);
+            statusLED(&led3, ON);
         }
 
         // Spacebar, q or h displays the menu!

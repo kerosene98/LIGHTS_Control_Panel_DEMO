@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="USART3" targetName="USART3.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63eb3489-f3f2-4c56-8669-1bb5fb1d664e" name="Changes" comment="WIP">
+      <change beforePath="$PROJECT_DIR$/Inc/button.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/button.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/dependencies/button.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/button.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/dependencies/init.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/init.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/dependencies/test_button.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/test_button.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/dependencies/test_usart.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/test_usart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/out/c/davesusart.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/c/davesusart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/out/c/init.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/c/init.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/out/c/test_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/c/test_usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/out/test_init.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/test_init.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/out/test_usart.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/test_usart.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/results/test_button.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_button.pass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/results/test_init.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_init.pass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/results/test_led.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_led.pass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/results/test_menu.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_menu.pass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/results/test_usart.fail" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_usart.fail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_init.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20uCcyTvXqZjMplhuTW0MaL9ybW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Inc" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/Src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD USART3">
+    <configuration name="USART3.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="USART3" TARGET_NAME="USART3.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="USART3" RUN_TARGET_NAME="USART3.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.USART3.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD USART3" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63eb3489-f3f2-4c56-8669-1bb5fb1d664e" name="Changes" comment="" />
+      <created>1636885168751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636885168751</updated>
+      <workItem from="1636885181188" duration="2862000" />
+      <workItem from="1636914676650" duration="1199000" />
+      <workItem from="1636970874577" duration="4566000" />
+      <workItem from="1636997415631" duration="3681000" />
+      <workItem from="1637005872367" duration="861000" />
+      <workItem from="1637006892430" duration="1165000" />
+      <workItem from="1637008195200" duration="1293000" />
+      <workItem from="1637014826849" duration="23000" />
+      <workItem from="1637015614819" duration="968000" />
+      <workItem from="1637016633699" duration="7042000" />
+      <workItem from="1637081393153" duration="622000" />
+      <workItem from="1637662618531" duration="17044000" />
+      <workItem from="1637687952675" duration="17038000" />
+      <workItem from="1637744512326" duration="200000" />
+      <workItem from="1637744726478" duration="7759000" />
+      <workItem from="1637770975982" duration="5558000" />
+      <workItem from="1637831747178" duration="2294000" />
+    </task>
+    <task id="LOCAL-00001" summary="WIP">
+      <created>1637698815456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637698815456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="WIP">
+      <created>1637698830809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637698830809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
+  </component>
+</project>

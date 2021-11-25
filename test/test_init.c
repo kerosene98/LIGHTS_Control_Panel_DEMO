@@ -5,7 +5,7 @@
 #include "init.h"
 #include "mock_stm32f4xx_hal.h"
 
-
+//NOTE : test framework for init functions
 
 void setUp(void)
 {
