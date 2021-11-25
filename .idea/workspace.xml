@@ -15,29 +15,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63eb3489-f3f2-4c56-8669-1bb5fb1d664e" name="Changes" comment="WIP">
-      <change beforePath="$PROJECT_DIR$/Inc/button.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/button.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/dependencies/button.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/button.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/dependencies/init.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/init.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/dependencies/test_button.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/test_button.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/dependencies/test_usart.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/dependencies/test_usart.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/out/c/davesusart.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/c/davesusart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/out/c/init.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/c/init.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/out/c/test_usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/c/test_usart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/out/test_init.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/test_init.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/out/test_usart.out" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/out/test_usart.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/results/test_button.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_button.pass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/results/test_init.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_init.pass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/results/test_led.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_led.pass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/results/test_menu.pass" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_menu.pass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/results/test_usart.fail" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/results/test_usart.fail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/menu.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/USART3.elf.dir/src/menu.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/USART3.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/USART3.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +113,7 @@
       <workItem from="1637744512326" duration="200000" />
       <workItem from="1637744726478" duration="7759000" />
       <workItem from="1637770975982" duration="5558000" />
-      <workItem from="1637831747178" duration="2294000" />
+      <workItem from="1637831747178" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1637698815456</created>

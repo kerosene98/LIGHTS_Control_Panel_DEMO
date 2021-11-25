@@ -1013,7 +1013,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x00000000080001c4                . = ALIGN (0x4)
 
-.text           0x0000000008000200      0xf88
+.text           0x0000000008000200      0xf94
                 0x0000000008000200                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000200       0xa4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
@@ -1167,142 +1167,143 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
                 0x0000000008000eec       0x16 CMakeFiles/USART3.elf.dir/src/led.c.obj
                 0x0000000008000eec                placeLED
  *fill*         0x0000000008000f02        0x2 
- .text.main     0x0000000008000f04      0x1dc CMakeFiles/USART3.elf.dir/src/main.c.obj
+ .text.main     0x0000000008000f04      0x1e8 CMakeFiles/USART3.elf.dir/src/main.c.obj
                 0x0000000008000f04                main
  .text.printMenu
-                0x00000000080010e0        0x8 CMakeFiles/USART3.elf.dir/src/menu.c.obj
-                0x00000000080010e0                printMenu
+                0x00000000080010ec        0x8 CMakeFiles/USART3.elf.dir/src/menu.c.obj
+                0x00000000080010ec                printMenu
  .text.CLEARDISPLAY
-                0x00000000080010e8        0x8 CMakeFiles/USART3.elf.dir/src/menu.c.obj
-                0x00000000080010e8                CLEARDISPLAY
- .text.APPHELP  0x00000000080010f0        0x8 CMakeFiles/USART3.elf.dir/src/menu.c.obj
-                0x00000000080010f0                APPHELP
+                0x00000000080010f4        0x8 CMakeFiles/USART3.elf.dir/src/menu.c.obj
+                0x00000000080010f4                CLEARDISPLAY
+ .text.APPHELP  0x00000000080010fc        0x8 CMakeFiles/USART3.elf.dir/src/menu.c.obj
+                0x00000000080010fc                APPHELP
  .text.NMI_Handler
-                0x00000000080010f8        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x00000000080010f8                NMI_Handler
- .text.HardFault_Handler
-                0x00000000080010fa        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x00000000080010fa                HardFault_Handler
- .text.MemManage_Handler
-                0x00000000080010fc        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x00000000080010fc                MemManage_Handler
- .text.BusFault_Handler
-                0x00000000080010fe        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x00000000080010fe                BusFault_Handler
- .text.UsageFault_Handler
-                0x0000000008001100        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x0000000008001100                UsageFault_Handler
- .text.SVC_Handler
-                0x0000000008001102        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x0000000008001102                SVC_Handler
- .text.DebugMon_Handler
                 0x0000000008001104        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x0000000008001104                DebugMon_Handler
- .text.PendSV_Handler
+                0x0000000008001104                NMI_Handler
+ .text.HardFault_Handler
                 0x0000000008001106        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x0000000008001106                PendSV_Handler
+                0x0000000008001106                HardFault_Handler
+ .text.MemManage_Handler
+                0x0000000008001108        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x0000000008001108                MemManage_Handler
+ .text.BusFault_Handler
+                0x000000000800110a        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x000000000800110a                BusFault_Handler
+ .text.UsageFault_Handler
+                0x000000000800110c        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x000000000800110c                UsageFault_Handler
+ .text.SVC_Handler
+                0x000000000800110e        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x000000000800110e                SVC_Handler
+ .text.DebugMon_Handler
+                0x0000000008001110        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x0000000008001110                DebugMon_Handler
+ .text.PendSV_Handler
+                0x0000000008001112        0x2 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x0000000008001112                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008001108        0x8 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
-                0x0000000008001108                SysTick_Handler
- .text._sbrk    0x0000000008001110       0x48 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
-                0x0000000008001110                _sbrk
+                0x0000000008001114        0x8 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+                0x0000000008001114                SysTick_Handler
+ .text._sbrk    0x000000000800111c       0x48 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+                0x000000000800111c                _sbrk
  .text.SystemInit
-                0x0000000008001158        0x2 CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
-                0x0000000008001158                SystemInit
- *fill*         0x000000000800115a        0x2 
- .text.startup  0x000000000800115c       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+                0x0000000008001164        0x2 CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
+                0x0000000008001164                SystemInit
+ *fill*         0x0000000008001166        0x2 
+ .text.startup  0x0000000008001168       0x14 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
  *(.glue_7)
- .glue_7        0x0000000008001170        0x0 linker stubs
+ .glue_7        0x000000000800117c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008001170        0x0 linker stubs
+ .glue_7t       0x000000000800117c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008001170        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .eh_frame      0x000000000800117c        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
  *(.init)
- .init          0x0000000008001170        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
-                0x0000000008001170                _init
- .init          0x0000000008001174        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+ .init          0x000000000800117c        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x000000000800117c                _init
+ .init          0x0000000008001180        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
  *(.fini)
- .fini          0x000000000800117c        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
-                0x000000000800117c                _fini
- .fini          0x0000000008001180        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
-                0x0000000008001188                . = ALIGN (0x4)
-                0x0000000008001188                _etext = .
+ .fini          0x0000000008001188        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x0000000008001188                _fini
+ .fini          0x000000000800118c        0x8 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x0000000008001194                . = ALIGN (0x4)
+                0x0000000008001194                _etext = .
 
-.vfp11_veneer   0x0000000008001188        0x0
- .vfp11_veneer  0x0000000008001188        0x0 linker stubs
+.vfp11_veneer   0x0000000008001194        0x0
+ .vfp11_veneer  0x0000000008001194        0x0 linker stubs
 
-.v4_bx          0x0000000008001188        0x0
- .v4_bx         0x0000000008001188        0x0 linker stubs
+.v4_bx          0x0000000008001194        0x0
+ .v4_bx         0x0000000008001194        0x0 linker stubs
 
-.iplt           0x0000000008001188        0x0
- .iplt          0x0000000008001188        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.iplt           0x0000000008001194        0x0
+ .iplt          0x0000000008001194        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.rodata         0x0000000008001188      0x238
-                0x0000000008001188                . = ALIGN (0x4)
+.rodata         0x0000000008001194      0x2bc
+                0x0000000008001194                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008001188        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
-                0x0000000008001188                _global_impure_ptr
+ .rodata        0x0000000008001194        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
+                0x0000000008001194                _global_impure_ptr
  *(.rodata*)
  .rodata.main.str1.4
-                0x000000000800118c       0x4c CMakeFiles/USART3.elf.dir/src/main.c.obj
+                0x0000000008001198       0x4c CMakeFiles/USART3.elf.dir/src/main.c.obj
                                          0x50 (size before relaxing)
  .rodata.APPHELP.str1.4
-                0x00000000080011d8       0x8b CMakeFiles/USART3.elf.dir/src/menu.c.obj
- *fill*         0x0000000008001263        0x1 
- .rodata.CLEARDISPLAY.str1.4
-                0x0000000008001264        0xb CMakeFiles/USART3.elf.dir/src/menu.c.obj
+                0x00000000080011e4       0x8b CMakeFiles/USART3.elf.dir/src/menu.c.obj
  *fill*         0x000000000800126f        0x1 
+ .rodata.CLEARDISPLAY.str1.4
+                0x0000000008001270        0xb CMakeFiles/USART3.elf.dir/src/menu.c.obj
+ *fill*         0x000000000800127b        0x1 
  .rodata.printMenu.str1.4
-                0x0000000008001270      0x14c CMakeFiles/USART3.elf.dir/src/menu.c.obj
+                0x000000000800127c      0x1ce CMakeFiles/USART3.elf.dir/src/menu.c.obj
+ *fill*         0x000000000800144a        0x2 
  .rodata.str1.4
-                0x00000000080013bc        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
+                0x000000000800144c        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
                                           0x2 (size before relaxing)
-                0x00000000080013c0                . = ALIGN (0x4)
+                0x0000000008001450                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000080013c0        0x0
- .rel.iplt      0x00000000080013c0        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.rel.dyn        0x0000000008001450        0x0
+ .rel.iplt      0x0000000008001450        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
-.ARM.extab      0x00000000080013c0        0x0
-                0x00000000080013c0                . = ALIGN (0x4)
+.ARM.extab      0x0000000008001450        0x0
+                0x0000000008001450                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080013c0                . = ALIGN (0x4)
+                0x0000000008001450                . = ALIGN (0x4)
 
-.ARM            0x00000000080013c0        0x0
-                0x00000000080013c0                . = ALIGN (0x4)
-                0x00000000080013c0                __exidx_start = .
+.ARM            0x0000000008001450        0x0
+                0x0000000008001450                . = ALIGN (0x4)
+                0x0000000008001450                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080013c0                __exidx_end = .
-                0x00000000080013c0                . = ALIGN (0x4)
+                0x0000000008001450                __exidx_end = .
+                0x0000000008001450                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080013c0        0x0
-                0x00000000080013c0                . = ALIGN (0x4)
-                0x00000000080013c0                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000000008001450        0x0
+                0x0000000008001450                . = ALIGN (0x4)
+                0x0000000008001450                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000000080013c0                PROVIDE (__preinit_array_end, .)
-                0x00000000080013c0                . = ALIGN (0x4)
+                0x0000000008001450                PROVIDE (__preinit_array_end, .)
+                0x0000000008001450                . = ALIGN (0x4)
 
-.init_array     0x00000000080013c0        0x8
-                0x00000000080013c0                . = ALIGN (0x4)
-                0x00000000080013c0                PROVIDE (__init_array_start, .)
+.init_array     0x0000000008001450        0x8
+                0x0000000008001450                . = ALIGN (0x4)
+                0x0000000008001450                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  .init_array.00000
-                0x00000000080013c0        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+                0x0000000008001450        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x00000000080013c4        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00000000080013c8                PROVIDE (__init_array_end, .)
-                0x00000000080013c8                . = ALIGN (0x4)
+ .init_array    0x0000000008001454        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x0000000008001458                PROVIDE (__init_array_end, .)
+                0x0000000008001458                . = ALIGN (0x4)
 
-.fini_array     0x00000000080013c8        0x4
-                0x00000000080013c8                . = ALIGN (0x4)
-                0x00000000080013c8                PROVIDE (__fini_array_start, .)
+.fini_array     0x0000000008001458        0x4
+                0x0000000008001458                . = ALIGN (0x4)
+                0x0000000008001458                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080013c8        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x00000000080013cc                PROVIDE (__fini_array_end, .)
-                0x00000000080013cc                . = ALIGN (0x4)
-                0x00000000080013cc                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008001458        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x000000000800145c                PROVIDE (__fini_array_end, .)
+                0x000000000800145c                . = ALIGN (0x4)
+                0x000000000800145c                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x844 load address 0x00000000080013cc
+.data           0x0000000020000000      0x848 load address 0x000000000800145c
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1316,64 +1317,67 @@ LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
  .data.uwTickFreq
                 0x0000000020000840        0x1 CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                 0x0000000020000840                uwTickFreq
+ *fill*         0x0000000020000841        0x3 
+ .data.APPisOn  0x0000000020000844        0x4 CMakeFiles/USART3.elf.dir/src/main.c.obj
+                0x0000000020000844                APPisOn
  *(.RamFunc)
  *(.RamFunc*)
-                0x0000000020000844                . = ALIGN (0x4)
- *fill*         0x0000000020000841        0x3 
-                0x0000000020000844                _edata = .
+                0x0000000020000848                . = ALIGN (0x4)
+                0x0000000020000848                _edata = .
 
-.jcr            0x0000000020000844        0x0 load address 0x0000000008001c10
- .jcr           0x0000000020000844        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+.jcr            0x0000000020000848        0x0 load address 0x0000000008001ca4
+ .jcr           0x0000000020000848        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
 
 .tm_clone_table
-                0x0000000020000844        0x0 load address 0x0000000008001c10
+                0x0000000020000848        0x0 load address 0x0000000008001ca4
  .tm_clone_table
-                0x0000000020000844        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x0000000020000848        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
  .tm_clone_table
-                0x0000000020000844        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+                0x0000000020000848        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
 
-.igot.plt       0x0000000020000844        0x0 load address 0x0000000008001c10
- .igot.plt      0x0000000020000844        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
-                0x0000000020000844                . = ALIGN (0x4)
+.igot.plt       0x0000000020000848        0x0 load address 0x0000000008001ca4
+ .igot.plt      0x0000000020000848        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x0000000020000848                . = ALIGN (0x4)
 
-.bss            0x0000000020000844       0x74 load address 0x0000000008001c10
-                0x0000000020000844                _sbss = .
-                0x0000000020000844                __bss_start__ = _sbss
+.bss            0x0000000020000848       0x74 load address 0x0000000008001ca4
+                0x0000000020000848                _sbss = .
+                0x0000000020000848                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000844       0x1c /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
- .bss           0x0000000020000860       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
-                0x0000000020000860                __malloc_top_pad
-                0x0000000020000864                __malloc_current_mallinfo
-                0x000000002000088c                __malloc_max_sbrked_mem
-                0x0000000020000890                __malloc_max_total_mem
+ .bss           0x0000000020000848       0x1c /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .bss           0x0000000020000864       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
+                0x0000000020000864                __malloc_top_pad
+                0x0000000020000868                __malloc_current_mallinfo
+                0x0000000020000890                __malloc_max_sbrked_mem
+                0x0000000020000894                __malloc_max_total_mem
  *(.bss*)
- .bss.uwTick    0x0000000020000894        0x4 CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000020000894                uwTick
- .bss.led1      0x0000000020000898        0x8 CMakeFiles/USART3.elf.dir/src/main.c.obj
-                0x0000000020000898                led1
- .bss.led2      0x00000000200008a0        0x8 CMakeFiles/USART3.elf.dir/src/main.c.obj
-                0x00000000200008a0                led2
- .bss.led3      0x00000000200008a8        0x8 CMakeFiles/USART3.elf.dir/src/main.c.obj
-                0x00000000200008a8                led3
+ .bss.uwTick    0x0000000020000898        0x4 CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000020000898                uwTick
+ .bss.led1      0x000000002000089c        0x8 CMakeFiles/USART3.elf.dir/src/main.c.obj
+                0x000000002000089c                led1
+ .bss.led2      0x00000000200008a4        0x8 CMakeFiles/USART3.elf.dir/src/main.c.obj
+                0x00000000200008a4                led2
+ .bss.led3      0x00000000200008ac        0x8 CMakeFiles/USART3.elf.dir/src/main.c.obj
+                0x00000000200008ac                led3
  .bss.__sbrk_heap_end
-                0x00000000200008b0        0x4 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+                0x00000000200008b4        0x4 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
  *(COMMON)
- COMMON         0x00000000200008b4        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
-                0x00000000200008b4                errno
-                0x00000000200008b8                . = ALIGN (0x4)
-                0x00000000200008b8                _ebss = .
-                0x00000000200008b8                __bss_end__ = _ebss
+ COMMON         0x00000000200008b8        0x4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
+                0x00000000200008b8                errno
+                0x00000000200008bc                . = ALIGN (0x4)
+                0x00000000200008bc                _ebss = .
+                0x00000000200008bc                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200008b8      0x600 load address 0x0000000008001c10
-                0x00000000200008b8                . = ALIGN (0x8)
+                0x00000000200008bc      0x604 load address 0x0000000008001ca4
+                0x00000000200008c0                . = ALIGN (0x8)
+ *fill*         0x00000000200008bc        0x4 
                 [!provide]                        PROVIDE (end, .)
-                0x00000000200008b8                PROVIDE (_end, .)
-                0x0000000020000ab8                . = (. + _Min_Heap_Size)
- *fill*         0x00000000200008b8      0x200 
-                0x0000000020000eb8                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000ab8      0x400 
-                0x0000000020000eb8                . = ALIGN (0x8)
+                0x00000000200008c0                PROVIDE (_end, .)
+                0x0000000020000ac0                . = (. + _Min_Heap_Size)
+ *fill*         0x00000000200008c0      0x200 
+                0x0000000020000ec0                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000ac0      0x400 
+                0x0000000020000ec0                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1471,32 +1475,32 @@ OUTPUT(USART3.elf elf32-littlearm)
  .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
  .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
 
-.debug_info     0x0000000000000000     0xb3e1
+.debug_info     0x0000000000000000     0xb3e8
  .debug_info    0x0000000000000000      0xa3e CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_info    0x0000000000000a3e       0x9a CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
  .debug_info    0x0000000000000ad8      0xa83 CMakeFiles/USART3.elf.dir/src/davesusart.c.obj
  .debug_info    0x000000000000155b      0x490 CMakeFiles/USART3.elf.dir/src/init.c.obj
  .debug_info    0x00000000000019eb      0x38f CMakeFiles/USART3.elf.dir/src/led.c.obj
- .debug_info    0x0000000000001d7a      0xe43 CMakeFiles/USART3.elf.dir/src/main.c.obj
- .debug_info    0x0000000000002bbd       0xaf CMakeFiles/USART3.elf.dir/src/menu.c.obj
- .debug_info    0x0000000000002c6c       0xec CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
- .debug_info    0x0000000000002d58      0x98e CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
- .debug_info    0x00000000000036e6      0x3e7 CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
- .debug_info    0x0000000000003acd      0x907 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
- .debug_info    0x00000000000043d4      0x8cc /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
- .debug_info    0x0000000000004ca0       0xfa /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
- .debug_info    0x0000000000004d9a      0x8a5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
- .debug_info    0x000000000000563f      0x110 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
- .debug_info    0x000000000000574f      0x922 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
- .debug_info    0x0000000000006071      0xdf1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
- .debug_info    0x0000000000006e62      0x8d8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
- .debug_info    0x000000000000773a      0x95a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
- .debug_info    0x0000000000008094      0x8b8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
- .debug_info    0x000000000000894c       0xc8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strlen.o)
- .debug_info    0x0000000000008a14      0x950 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
- .debug_info    0x0000000000009364      0x9bc /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
- .debug_info    0x0000000000009d20      0xca9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
- .debug_info    0x000000000000a9c9      0xa18 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
+ .debug_info    0x0000000000001d7a      0xe4a CMakeFiles/USART3.elf.dir/src/main.c.obj
+ .debug_info    0x0000000000002bc4       0xaf CMakeFiles/USART3.elf.dir/src/menu.c.obj
+ .debug_info    0x0000000000002c73       0xec CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+ .debug_info    0x0000000000002d5f      0x98e CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+ .debug_info    0x00000000000036ed      0x3e7 CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
+ .debug_info    0x0000000000003ad4      0x907 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
+ .debug_info    0x00000000000043db      0x8cc /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
+ .debug_info    0x0000000000004ca7       0xfa /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
+ .debug_info    0x0000000000004da1      0x8a5 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
+ .debug_info    0x0000000000005646      0x110 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
+ .debug_info    0x0000000000005756      0x922 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
+ .debug_info    0x0000000000006078      0xdf1 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
+ .debug_info    0x0000000000006e69      0x8d8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
+ .debug_info    0x0000000000007741      0x95a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
+ .debug_info    0x000000000000809b      0x8b8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
+ .debug_info    0x0000000000008953       0xc8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strlen.o)
+ .debug_info    0x0000000000008a1b      0x950 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
+ .debug_info    0x000000000000936b      0x9bc /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000009d27      0xca9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
+ .debug_info    0x000000000000a9d0      0xa18 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
 
 .debug_abbrev   0x0000000000000000     0x2782
  .debug_abbrev  0x0000000000000000      0x1e6 CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
@@ -1525,24 +1529,24 @@ OUTPUT(USART3.elf elf32-littlearm)
  .debug_abbrev  0x000000000000229b      0x27a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
  .debug_abbrev  0x0000000000002515      0x26d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
 
-.debug_loc      0x0000000000000000     0x1c49
+.debug_loc      0x0000000000000000     0x1c13
  .debug_loc     0x0000000000000000      0x10d CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_loc     0x000000000000010d       0x5e CMakeFiles/USART3.elf.dir/src/davesusart.c.obj
  .debug_loc     0x000000000000016b       0x3c CMakeFiles/USART3.elf.dir/src/led.c.obj
- .debug_loc     0x00000000000001a7       0x72 CMakeFiles/USART3.elf.dir/src/main.c.obj
- .debug_loc     0x0000000000000219       0x4d CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
- .debug_loc     0x0000000000000266      0x13e CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
- .debug_loc     0x00000000000003a4       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
- .debug_loc     0x00000000000003d0       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
- .debug_loc     0x000000000000042c       0xae /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
- .debug_loc     0x00000000000004da       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
- .debug_loc     0x0000000000000532      0xcf4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
- .debug_loc     0x0000000000001226       0x4d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
- .debug_loc     0x0000000000001273       0x21 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
- .debug_loc     0x0000000000001294      0x197 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
- .debug_loc     0x000000000000142b      0x199 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
- .debug_loc     0x00000000000015c4      0x568 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
- .debug_loc     0x0000000000001b2c      0x11d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
+ .debug_loc     0x00000000000001a7       0x3c CMakeFiles/USART3.elf.dir/src/main.c.obj
+ .debug_loc     0x00000000000001e3       0x4d CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+ .debug_loc     0x0000000000000230      0x13e CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
+ .debug_loc     0x000000000000036e       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000039a       0x5c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
+ .debug_loc     0x00000000000003f6       0xae /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
+ .debug_loc     0x00000000000004a4       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
+ .debug_loc     0x00000000000004fc      0xcf4 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
+ .debug_loc     0x00000000000011f0       0x4d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
+ .debug_loc     0x000000000000123d       0x21 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
+ .debug_loc     0x000000000000125e      0x197 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
+ .debug_loc     0x00000000000013f5      0x199 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+ .debug_loc     0x000000000000158e      0x568 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
+ .debug_loc     0x0000000000001af6      0x11d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
 
 .debug_aranges  0x0000000000000000      0x478
  .debug_aranges
@@ -1611,32 +1615,32 @@ OUTPUT(USART3.elf elf32-littlearm)
  .debug_ranges  0x0000000000000258       0x10 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
  .debug_ranges  0x0000000000000268       0x38 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
 
-.debug_line     0x0000000000000000     0x278d
+.debug_line     0x0000000000000000     0x278c
  .debug_line    0x0000000000000000      0x414 CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_line    0x0000000000000414       0xa3 CMakeFiles/USART3.elf.dir/Startup/startup_stm32f446retx.s.obj
  .debug_line    0x00000000000004b7      0x27c CMakeFiles/USART3.elf.dir/src/davesusart.c.obj
  .debug_line    0x0000000000000733      0x1eb CMakeFiles/USART3.elf.dir/src/init.c.obj
  .debug_line    0x000000000000091e      0x215 CMakeFiles/USART3.elf.dir/src/led.c.obj
- .debug_line    0x0000000000000b33      0x2fa CMakeFiles/USART3.elf.dir/src/main.c.obj
- .debug_line    0x0000000000000e2d       0x80 CMakeFiles/USART3.elf.dir/src/menu.c.obj
- .debug_line    0x0000000000000ead       0xe8 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000000f95      0x121 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
- .debug_line    0x00000000000010b6      0x1fa CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
- .debug_line    0x00000000000012b0      0x151 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
- .debug_line    0x0000000000001401      0x104 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
- .debug_line    0x0000000000001505       0x9f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
- .debug_line    0x00000000000015a4       0xe9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
- .debug_line    0x000000000000168d       0xb8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
- .debug_line    0x0000000000001745      0x154 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
- .debug_line    0x0000000000001899      0x391 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
- .debug_line    0x0000000000001c2a       0xf8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
- .debug_line    0x0000000000001d22      0x15a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
- .debug_line    0x0000000000001e7c      0x14d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
- .debug_line    0x0000000000001fc9       0xac /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strlen.o)
- .debug_line    0x0000000000002075      0x184 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
- .debug_line    0x00000000000021f9      0x1b2 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
- .debug_line    0x00000000000023ab      0x269 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
- .debug_line    0x0000000000002614      0x179 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
+ .debug_line    0x0000000000000b33      0x2f9 CMakeFiles/USART3.elf.dir/src/main.c.obj
+ .debug_line    0x0000000000000e2c       0x80 CMakeFiles/USART3.elf.dir/src/menu.c.obj
+ .debug_line    0x0000000000000eac       0xe8 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+ .debug_line    0x0000000000000f94      0x121 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+ .debug_line    0x00000000000010b5      0x1fa CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
+ .debug_line    0x00000000000012af      0x151 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
+ .debug_line    0x0000000000001400      0x104 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
+ .debug_line    0x0000000000001504       0x9f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
+ .debug_line    0x00000000000015a3       0xe9 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-impure.o)
+ .debug_line    0x000000000000168c       0xb8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
+ .debug_line    0x0000000000001744      0x154 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
+ .debug_line    0x0000000000001898      0x391 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
+ .debug_line    0x0000000000001c29       0xf8 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
+ .debug_line    0x0000000000001d21      0x15a /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000001e7b      0x14d /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
+ .debug_line    0x0000000000001fc8       0xac /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strlen.o)
+ .debug_line    0x0000000000002074      0x184 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
+ .debug_line    0x00000000000021f8      0x1b2 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+ .debug_line    0x00000000000023aa      0x269 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
+ .debug_line    0x0000000000002613      0x179 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
 
 .debug_str      0x0000000000000000     0x1c0c
  .debug_str     0x0000000000000000      0xb6b CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
@@ -1686,26 +1690,26 @@ OUTPUT(USART3.elf elf32-littlearm)
  .debug_str     0x0000000000001bb1       0x5b /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
                                         0x5a3 (size before relaxing)
 
-.debug_frame    0x0000000000000000      0x718
+.debug_frame    0x0000000000000000      0x714
  .debug_frame   0x0000000000000000      0x1ec CMakeFiles/USART3.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_frame   0x00000000000001ec       0x4c CMakeFiles/USART3.elf.dir/src/davesusart.c.obj
  .debug_frame   0x0000000000000238       0x40 CMakeFiles/USART3.elf.dir/src/init.c.obj
  .debug_frame   0x0000000000000278       0x3c CMakeFiles/USART3.elf.dir/src/led.c.obj
- .debug_frame   0x00000000000002b4       0x30 CMakeFiles/USART3.elf.dir/src/main.c.obj
- .debug_frame   0x00000000000002e4       0x40 CMakeFiles/USART3.elf.dir/src/menu.c.obj
- .debug_frame   0x0000000000000324       0xa8 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
- .debug_frame   0x00000000000003cc       0x28 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
- .debug_frame   0x00000000000003f4       0x30 CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
- .debug_frame   0x0000000000000424       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
- .debug_frame   0x0000000000000444       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
- .debug_frame   0x0000000000000464       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
- .debug_frame   0x0000000000000498       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
- .debug_frame   0x00000000000004c4       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
- .debug_frame   0x00000000000004f4       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
- .debug_frame   0x000000000000054c       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
- .debug_frame   0x000000000000057c       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000000005a8       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
- .debug_frame   0x00000000000005c8       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
- .debug_frame   0x00000000000005fc       0x50 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x000000000000064c       0x74 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
- .debug_frame   0x00000000000006c0       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
+ .debug_frame   0x00000000000002b4       0x2c CMakeFiles/USART3.elf.dir/src/main.c.obj
+ .debug_frame   0x00000000000002e0       0x40 CMakeFiles/USART3.elf.dir/src/menu.c.obj
+ .debug_frame   0x0000000000000320       0xa8 CMakeFiles/USART3.elf.dir/src/stm32f4xx_it.c.obj
+ .debug_frame   0x00000000000003c8       0x28 CMakeFiles/USART3.elf.dir/src/sysmem.c.obj
+ .debug_frame   0x00000000000003f0       0x30 CMakeFiles/USART3.elf.dir/src/system_stm32f4xx.c.obj
+ .debug_frame   0x0000000000000420       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000440       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000460       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000494       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-init.o)
+ .debug_frame   0x00000000000004c0       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000004f0       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000000548       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000578       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000005a4       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-strcpy.o)
+ .debug_frame   0x00000000000005c4       0x34 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000000005f8       0x50 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000648       0x74 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-freer.o)
+ .debug_frame   0x00000000000006bc       0x58 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v7e-m/libg.a(lib_a-reent.o)
